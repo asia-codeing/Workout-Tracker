@@ -20,6 +20,7 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
         res.status(400).json(err);
     });
 });
+
 router.get("/api/workouts", (req, res) => {
     Workout.find({})
     .then(dbWorkout => {
@@ -29,5 +30,17 @@ router.get("/api/workouts", (req, res) => {
         res.status(400).json(err);
     });
 });
+
+router.get("/api/workouts/range", (req, res) => {
+    Workout.find({}).limit(10)
+    .then(dbWorkout => {
+    res.json(dbWorkout);
+    })
+    .catch(err => {
+        res.status(400).json(err);
+    });
+});
+
+
 
 
