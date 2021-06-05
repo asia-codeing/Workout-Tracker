@@ -14,6 +14,12 @@ Application use to view create and track daily workouts. The user be able to log
 * [Contributing](#contributing)
 * [Questions](#questions)
 
+## Prerequisites
+Install npm dependencies
+* ``` npm i express```
+* ``` npm i mongoose```
+* ``` npm i morgan```
+
 ## Technologies
 Project is created with:
 * HTML
