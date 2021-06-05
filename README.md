@@ -53,6 +53,8 @@ Project is created with:
 * Vanilla Javascript
 * Node.js
 * Express.js
+* MongoDB
+* Mongoose
 
 
 ## License:
