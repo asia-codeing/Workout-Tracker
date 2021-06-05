@@ -23,7 +23,7 @@ Install npm dependencies
 ## Usage:
 
 ### Localy:
-  * I saparate terminal run the mongo database by usin this command:<br />
+  * I separate terminal run the mongo database by usin this command:<br />
   ```mongod --dbpath ~/path/to/your/app/data``` 
   * Open new terminal.
   * Make sure you are in the right directory.
