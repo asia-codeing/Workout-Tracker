@@ -20,6 +20,34 @@ Install npm dependencies
 * ``` npm i mongoose```
 * ``` npm i morgan```
 
+## Usage:
+
+### Localy:
+  * I saparate terminal run the mongo database by usin this command:<br />
+  ```mongod --dbpath ~/path/to/your/app/data``` 
+  * Open new terminal.
+  * Make sure you are in the right directory.
+  * In the command line type node followed by the name of the file, like the command bellow:<br />
+  ```node server.js```
+  * I the browser type: http://localhost:app PORT number
+
+### The app after get deploied:
+  * Navigate to Fitness tracker
+  * Click on New workout button
+  * Fill the exercies module that will shown to you
+  * Click Add exercies
+  * Aftere you get done click Complete 
+  * You can navigate to Dashboard to check your stats
+
+## Screenshots: 
+![Demo](./assets/demo.gif)
+![Demo2](./assets/demo2.gif)
+
+## Link-to-deployed-application
+[Tech-Blog](https://mvc--tech--blog.herokuapp.com/)
+
+
+
 ## Technologies
 Project is created with:
 * HTML
