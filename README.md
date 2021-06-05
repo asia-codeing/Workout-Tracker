@@ -44,8 +44,7 @@ Install npm dependencies
 ![Demo2](./assets/demo2.gif)
 
 ## Link-to-deployed-application
-[Tech-Blog](https://mvc--tech--blog.herokuapp.com/)
-
+[Fitness-tracker](https://work--out--tracker.herokuapp.com/stats)
 
 
 ## Technologies
