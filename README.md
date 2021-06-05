@@ -40,8 +40,7 @@ Install npm dependencies
   * You can navigate to Dashboard to check your stats
 
 ## Screenshots: 
-![Demo](./assets/demo.gif)
-![Demo2](./assets/demo2.gif)
+![Demo](./assets/demo-tracker.gif)
 
 ## Link-to-deployed-application
 [Fitness-tracker](https://work--out--tracker.herokuapp.com/stats)
